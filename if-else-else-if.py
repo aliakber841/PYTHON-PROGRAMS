@@ -16,5 +16,3 @@ for car in car_makers:
     print(car.upper())
  else:
     print(car.title())
-
-print
