@@ -1,0 +1,15 @@
+thisTuple = ("apple", "banana", "cherry")
+print(thisTuple)
+print(len(thisTuple))
+newTuple=('apple',) # add comma
+print(type(newTuple))
+tupleConstructor=tuple(('apple','banana'))
+print(tupleConstructor)
+print(thisTuple[0])
+print(thisTuple[-1])
+print(thisTuple[0:2])
+print(thisTuple[2:])
+print(thisTuple[:4])
+print(thisTuple[-4:-1])
+if "apple" in thisTuple:
+  print("Yes, 'apple' is in the fruits tuple")
