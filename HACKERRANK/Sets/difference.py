@@ -1,0 +1,8 @@
+n1=int(input())
+array_n1=list(map(int,input().split()))
+set_n1=set(array_n1)
+n2=int(input())
+array_n2=list(map(int,input().split()))
+set_n2=set(array_n2)
+set3=set_n1.difference(set_n2)
+print(len(set3))
